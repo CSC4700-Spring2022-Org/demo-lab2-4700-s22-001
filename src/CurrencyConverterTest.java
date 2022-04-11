@@ -36,7 +36,7 @@ public class CurrencyConverterTest {
     @Test
     public void testIsValidWhenRateIsNull() {
         CurrencyConverter converter = new CurrencyConverter();     
-        assertTrue(converter.isValid(null));
+        assertFalse(converter.isValid(null));
     }
     
 }
