@@ -15,4 +15,8 @@ public class CurrencyConverter {
         return result;
     }
 
+    public boolean isValid(BigDecimal rate) {
+        return false;
+    }
+
 }
